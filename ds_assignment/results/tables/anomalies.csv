@@ -1,0 +1,10 @@
+anomaly,n_records,handling in analysis
+closed_date earlier than created_date,13,dropped from timing (impossible)
+status=='Pending' but closed_date present,6,excluded from timing via status filter
+status=='Closed' but closed_date missing,0,none found
+elapsed == exactly 0 hours,4374,"retained — but see §9, these are duplicate-closures, a semantic case not an error"
+elapsed > 365 h (15.25 days),116,"retained; long right tail, no single-record influence on the medians"
+elapsed > 365 days (8760 h),11,"retained; reported separately as a tail, excluded in sensitivity S2"
+elapsed > 1000 h (41.7 days),26,retained; inspected individually below for back-fill signatures
+borough == 'Unspecified',125,"excluded from borough comparisons, shown separately"
+closed_date within 30 days of the latest closure in the extract,1,flagged as suspected back-fill

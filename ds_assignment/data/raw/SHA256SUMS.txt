@@ -1,0 +1,2 @@
+58f59a05cd09d0d581555a1ffc9ea9641fe34cf858d7bd7eb6ef9cf7123c0d94  nyc311_pothole_cy2024.json.gz (canonical uncompressed JSON)
+bc0ffaebd4edcdf3e0a5d142cf740bab3fec566aeee7589c0f37435647ebc21c  nyc311_pothole_cy2024.json.gz (gzip container)

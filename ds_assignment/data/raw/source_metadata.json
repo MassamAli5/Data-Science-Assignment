@@ -1,0 +1,31 @@
+{
+  "api_endpoint": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "extract_bytes_uncompressed": 36324458,
+  "extract_name": "nyc311_pothole_cy2024.json.gz",
+  "extract_sha256_gzip": "bc0ffaebd4edcdf3e0a5d142cf740bab3fec566aeee7589c0f37435647ebc21c",
+  "extract_sha256_uncompressed": "58f59a05cd09d0d581555a1ffc9ea9641fe34cf858d7bd7eb6ef9cf7123c0d94",
+  "extracted_at_utc": "2026-09-29T07:00:44.358592+00:00",
+  "frozen_query": {
+    "$limit": 5000,
+    "$order": "unique_key ASC",
+    "$where": "created_date between '2024-01-01T00:00:00' and '2024-12-31T23:59:59' AND complaint_type='Street Condition' AND descriptor='Pothole'",
+    "paging": "$offset increments of 5000 until a short page",
+    "selection": "complete enumeration (no sampling)"
+  },
+  "n_records": 38801,
+  "python": "3.13.7",
+  "source": {
+    "attribution": "311",
+    "dataset_id": "erm2-nwe9",
+    "dataset_name": "311 Service Requests from 2020 to Present",
+    "dataset_page": "https://data.cityofnewyork.us/City-Operations/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+    "license": "NYC Open Data Terms of Use (free public access, no fee)",
+    "license_url": "https://www.nyc.gov/site/analytics/analytics-policy.page",
+    "personal_data_note": "Upstream 311 data is published without personally identifying information; the publisher states PII is not revealed. We add no geocoding or enrichment of our own.",
+    "publisher": "NYC Mayor's Office of Technology & Innovation (OTI) / 311",
+    "source_is_mutable": true,
+    "source_mutability_note": "Upstream is refreshed daily and field values can be edited after the fact. The SHA-256 above pins OUR EXTRACT, not the upstream dataset. Re-running this script later will legitimately produce a different hash.",
+    "source_rows_updated_at_epoch": 1790646294,
+    "source_rows_updated_at_utc": "2026-09-29T01:44:54+00:00"
+  }
+}

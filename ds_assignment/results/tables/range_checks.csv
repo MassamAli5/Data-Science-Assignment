@@ -1,0 +1,14 @@
+check,violations,detail
+created_date inside CY2024 window,0,"cohort definition, should be 0"
+created_date parses as ISO-8601,0,
+closed_date parses as ISO-8601 when present,0,
+unique_key is a positive integer string,0,
+"borough in {5 boroughs, Unspecified}",0,
+"status in {Closed, Pending}",0,
+complaint_type == 'Street Condition' (constant by construction),0,
+descriptor == 'Pothole' (constant by construction),0,
+agency == 'DOT' (constant by construction),0,
+resolution_description non-null,0,
+incident_zip is 5 digits when present,0,
+closed_date >= created_date (chronological validity),13,VIOLATED -> see §7
+status=='Closed' implies closed_date present,0,

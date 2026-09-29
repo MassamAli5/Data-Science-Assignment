@@ -1,0 +1,8 @@
+sensitivity,verdict,detail
+S0 cohort,baseline,"38,801 pothole requests"
+S1 keep negative durations,no material change,"Queens median 20.06 h -> 20.05 h (the 13 impossible values fall at the far tail, not the median)"
+S2 drop elapsed > 365 d,no material change,"Queens 20.06->20.06 h, Manhattan 20.68->20.68 h; the tail is <0.1% and above the median"
+S3 exclude borough=='Unspecified',no material change,125 records; already outside all five named boroughs
+S4 drop all zero-hour records,RANKING STILL FLIPS,"Manhattan-Queens = -0.66 h, CI [-0.91, -0.35] -> Manhattan faster (same direction as repair-only)"
+S5 worst-case right-censoring,PENBORGS DIFFERS BY BOROUGH — flagged as a limit,"2,270 Pending records (5.85%); borough split {'QUEENS': 1768, 'MANHATTAN': 186, 'STATEN ISLAND': 152}"
+S5b censoring rate is non-uniform,confound acknowledged,"see table below — Pending share ranges across boroughs, so the closed-only estimand is not immune to the same composition problem"

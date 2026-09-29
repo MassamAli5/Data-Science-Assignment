@@ -1,0 +1,29 @@
+{
+  "cohort_n": 38801,
+  "analysis_set_n": 36518,
+  "median_all_closed_h": 21.986,
+  "median_repaired_h": 23.305,
+  "share_repaired_of_closed": 0.766,
+  "share_duplicate_of_closed": 0.1166,
+  "borough_rank_naive": [
+    "QUEENS",
+    "MANHATTAN",
+    "BROOKLYN",
+    "STATEN ISLAND",
+    "BRONX"
+  ],
+  "borough_rank_repaired": [
+    "MANHATTAN",
+    "QUEENS",
+    "BROOKLYN",
+    "STATEN ISLAND",
+    "BRONX"
+  ],
+  "ranking_changes": true,
+  "n_negative_durations": 13,
+  "n_zero_hour": 4374,
+  "n_no_street_address": 14517,
+  "n_pending": 2270,
+  "extract_sha256": "58f59a05cd09d0d581555a1ffc9ea9641fe34cf858d7bd7eb6ef9cf7123c0d94",
+  "seed": 20240101
+}

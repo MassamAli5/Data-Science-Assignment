@@ -1,0 +1,4 @@
+group,n,median_h
+address reported >=5x,8362,25.21
+address reported exactly 1x,5332,21.95
+difference,13694,3.26

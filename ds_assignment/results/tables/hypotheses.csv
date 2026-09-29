@@ -1,0 +1,5 @@
+hypothesis,result,verdict
+H1 geocoded requests are repaired faster,"+0.02 h, CI [-0.24, +0.28]",NULL - hypothesis rejected
+H2 the borough ranking is stable under a single definition,"Manhattan/Queens order reverses, both CIs exclude 0",REJECTED - ranking is definition-dependent
+H3 boroughs differ in repair speed after matching closure mix,gap fully attributable to closure-mix composition,REJECTED - no residual performance gap detected
+H4 heavily-reported locations are resolved faster (visibility effect),"+3.26 h, CI [+2.77, +3.73] - SLOWER",REJECTED - opposite direction

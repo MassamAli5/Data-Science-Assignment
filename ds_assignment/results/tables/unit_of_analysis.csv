@@ -1,0 +1,6 @@
+quantity,value
+records in cohort,38801.0
+duplicate unique_key,0.0
+records without street address,14517.0
+extra records sharing address + calendar day,3854.0
+share of addressed records that are same-address same-day repeats,0.1587

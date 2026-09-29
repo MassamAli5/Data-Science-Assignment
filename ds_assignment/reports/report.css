@@ -1,0 +1,6 @@
+@page { size: A4; margin: 14mm 11mm; }
+h1,h2,h3 { break-after: avoid; }
+table { break-inside: auto; font-size: 8.4pt; }
+tr { break-inside: avoid; }
+img { max-width: 100%; break-inside: avoid; }
+pre { white-space: pre-wrap; font-size: 7.6pt; break-inside: avoid; }

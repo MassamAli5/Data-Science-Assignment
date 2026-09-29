@@ -1,0 +1,9 @@
+outcome_class,n,median_h,mean_h,share_of_cohort,what it means
+REPAIRED,27987,23.301944444444445,46.839632412204956,0.7213,street inspected and repaired
+DUPLICATE_CLOSED,4261,0.0,0.30288997105530785,0.1098,administrative only — no work; closed against an earlier report
+NOT_FOUND,3564,19.41513888888889,35.898716953485476,0.0919,"inspected, nothing there — wrong location or already gone"
+ALREADY_FIXED,613,25.464166666666667,52.36259697299257,0.0158,someone else had already fixed it
+REFERRED,611,26.414444444444445,25.253703703703703,0.0157,handed to another unit — work not done by this agency
+IN_PROGRESS_NOTE,23,124.86069444444445,117.24231944444443,0.0006,"assigned/scheduled, not yet repaired"
+STATUS_NOT_PUBLISHED,1720,29.05597222222222,29.05597222222222,0.0443,placeholder; the true status is withheld
+OTHER,22,28.436666666666667,53.87001633986928,0.0006,unclassified residual

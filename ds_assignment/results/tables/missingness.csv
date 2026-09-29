@@ -1,0 +1,33 @@
+,missing_n,missing_pct,n_distinct_non_null,role
+bbl,33588,86.56,4421,STRUCTURAL - point geocode failed
+intersection_street_2,23893,61.58,2608,STRUCTURAL - street geocoder failed
+intersection_street_1,23891,61.57,2441,STRUCTURAL - street geocoder failed
+y_coordinate_state_plane,18424,47.48,12030,STRUCTURAL - point geocode failed
+x_coordinate_state_plane,18424,47.48,11921,STRUCTURAL - point geocode failed
+council_district,18424,47.48,51,STRUCTURAL - point geocode failed
+longitude,18424,47.48,12793,STRUCTURAL - point geocode failed
+latitude,18424,47.48,12793,STRUCTURAL - point geocode failed
+cross_street_2,14911,38.43,3576,STRUCTURAL - street geocoder failed
+cross_street_1,14907,38.42,3805,STRUCTURAL - street geocoder failed
+incident_address,14517,37.41,7750,STRUCTURAL - street geocoder failed
+street_name,14517,37.41,3133,STRUCTURAL - street geocoder failed
+closed_date,2264,5.83,28765,STRUCTURAL - right-censored (not closed)
+incident_zip,859,2.21,204,STRUCTURAL - point geocode failed
+city,855,2.2,45,STRUCTURAL - point geocode failed
+resolution_action_updated_date,0,0.0,30294,complete
+unique_key,0,0.0,38801,complete
+status,0,0.0,2,complete
+resolution_description,0,0.0,13,complete
+address_type,0,0.0,4,complete
+police_precinct,0,0.0,78,complete
+park_facility_name,0,0.0,1,complete
+agency,0,0.0,1,complete
+open_data_channel_type,0,0.0,1,complete
+facility_type,0,0.0,1,complete
+descriptor,0,0.0,1,complete
+created_date,0,0.0,37703,complete
+complaint_type,0,0.0,1,complete
+community_board,0,0.0,76,complete
+borough,0,0.0,6,complete
+agency_name,0,0.0,1,complete
+park_borough,0,0.0,6,complete
